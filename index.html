@@ -1,61 +1,53 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Price & Deal Tracker Dashboard</title>
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Dashboard</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f8f9fa; margin: 40px; color: #333; }
+        body { font-family: system-ui; background-color: #f8f9fa; margin: 40px; color: #333; }
         .container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
-        h1 { margin-top: 0; color: #2c3e50; font-size: 24px; }
+        h1 { color: #2c3e50; font-size: 24px; margin-top:0; }
         .timestamp { color: #7f8c8d; font-size: 14px; margin-bottom: 25px; }
         table { width: 100%; border-collapse: collapse; margin-top: 20px; }
         th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #e1e8ed; }
         th { background-color: #f4f6f8; color: #5c7080; font-weight: 600; }
-        a { color: #3498db; text-decoration: none; font-weight: 500; }
-        a:hover { text-decoration: underline; }
+        a { color: #3498db; text-decoration: none; }
         .alert-banner { background-color: #e74c3c; color: white; padding: 15px; border-radius: 6px; font-weight: bold; margin-bottom: 25px; }
         .deals-container { display: flex; flex-direction: column; gap: 15px; margin-bottom: 25px; }
         .deals-box { background-color: #fcf3cf; border-left: 5px solid #f1c40f; padding: 20px; border-radius: 4px; }
-        .deals-box h3 { margin-top: 0; color: #b7950b; font-size: 16px; margin-bottom: 10px; }
-        .deals-box ul { margin: 0; padding-left: 20px; color: #7d6608; font-weight: 500; line-height: 1.6; font-size: 14px; }
-    </style>
-</head>
-<body>
-    <div class="container">
+        .deals-box h3 { margin: 0 0 10px 0; color: #b7950b; font-size: 16px; }
+        .deals-box ul { margin: 0; padding-left: 20px; color: #7d6608; font-size: 14px; line-height: 1.6; }
+    </style></head><body><div class="container">
         <h1>🛍️ Shared Price & Deal Monitor</h1>
-        <div class="timestamp">Last Updated: 2026-11-01 11:55:13 AM</div>
-
+        <div class="timestamp">Last Updated: 2026-11-01 12:03:44 PM</div>
         <div class="deals-container">
-            
         <div class="deals-box">
             <h3>✨ Active Caudalie US Coupons & Offers 
-                <span style="font-size: 12px; margin-left: 10px;">
-                    <a href="https://caudalie.com" target="_blank" style="color: #b7950b; text-decoration: underline;">(Visit Store ↗)</a>
-                </span>
+                <a href="https://caudalie.com" target="_blank" style="font-size:12px;color:#b7950b;">(Visit Store ↗)</a>
             </h3>
             <ul><li>Enjoy a free Ice Roller with your $140+ order. Code:</li><li>Free mini Resveratrol-Lift Eye Patches + mini Serum & Cashmere Cream on orders $130+. Code:</li><li>Mini Resveratrol-lift trio on orders $130+. Code:</li></ul>
         </div>
-        
         <div class="deals-box">
             <h3>✨ Active Estee Lauder Coupons & Offers 
-                <span style="font-size: 12px; margin-left: 10px;">
-                    <a href="https://www.esteelauder.com/products/1799/product-catalog/bestsellers?gclsrc=aw.ds&gad_source=1&gad_campaignid=198337272&gbraid=0AAAAADSEa-QhPBKUIbEg8hGlpqP-Y2eUJ&gclid=CjwKCAjwxpvXBhASEiwAue4B4TjHRnSofDWU09KcU0LQdMKDnRoeZLUMtcL2PmJasEEPuwLGjnRr_RoC_bwQAvD_BwE" target="_blank" style="color: #b7950b; text-decoration: underline;">(Visit Store ↗)</a>
-                </span>
+                <a href="https://www.esteelauder.com/products/1799/product-catalog/bestsellers?gclsrc=aw.ds&gad_source=1&gad_campaignid=198337272&gbraid=0AAAAADSEa-QhPBKUIbEg8hGlpqP-Y2eUJ&gclid=CjwKCAjwxpvXBhASEiwAue4B4TjHRnSofDWU09KcU0LQdMKDnRoeZLUMtcL2PmJasEEPuwLGjnRr_RoC_bwQAvD_BwE" target="_blank" style="font-size:12px;color:#b7950b;">(Visit Store ↗)</a>
             </h3>
-            <ul><li>No Deals found</li></ul>
-        </div>
+            <ul><li>*One custom set per order. No offer code required.</li><li>*One custom set per order. No offer code required. 20% off will be automatically applied at checkout.</li></ul>
+        </div></div>
         
-        </div>
-
-        
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Product Name</th>
-                    <th>Target Baseline</th>
-                    <th>Current Status</th>
-                    <th>Action</th>
-                    </tr>
-            </thead>
-            <tbody>
+        <table><thead><tr><th>Product Name</th><th>Target Baseline</th><th>Current Status</th><th>Action</th></tr></thead>
+        <tbody>
+        <tr>
+            <td><b>BUYDEEM G553 Food Steamer</b></td>
+            <td>$229.99</td>
+            <td style='color:#2c3e50;'>Normal ($229.99)</td>
+            <td><a href='https://us.buydeem.com/products/electric-food-steamer-g553' target='_blank'>Shop Link ↗</a></td>
+        </tr>
+        <tr>
+            <td><b>Grape Water 300ml</b></td>
+            <td>$27.00</td>
+            <td style='color:#2c3e50;'>Normal ($27.00)</td>
+            <td><a href='https://us.caudalie.com/p/320C-1/grape-water-moisturizing-face-mist.html?ODE4=Y29uZmlndXJhYmxlLzgxOC82MDcy' target='_blank'>Shop Link ↗</a></td>
+        </tr>
+        <tr>
+            <td><b>Estee Lauder double serum *2</b></td>
+            <td>$235.00</td>
+            <td style='color:#2c3e50;'>Normal ($235.00)</td>
+            <td><a href='https://www.esteelauder.com/product/689/77500/product-catalog/skincare/repair-serum/advanced-night-repair-serum-duo/synchronized-multi-recovery-complex?size=3.4_oz.&_gl=1*1fjh6q1*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwxpvXBhASEiwAue4B4TjHRnSofDWU09KcU0LQdMKDnRoeZLUMtcL2PmJasEEPuwLGjnRr_RoC_bwQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADSEa-QhPBKUIbEg8hGlpqP-Y2eUJ' target='_blank'>Shop Link ↗</a></td>
+        </tr></tbody></table>
+    </div></body></html>
